@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="ST.CSS">
+    <script type="text/javascript">
+        var i = 1300;
+
+        function myLoop() {
+            setTimeout(function () { 
+                document.getElementById("di1").style.width = i + 'px'; 
+                i--; //  increment the counter
+                if (i > 800) { 
+                    myLoop(); 
+                } 
+            }, 20)
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="scrol">
+        <img id="di1" src="http://che-guevara.od.ua/images/stories/fpslide/Image00005.jpg" title="" alt="">
+        <script type="text/javascript">
+            myLoop();
+        </script>
+
+    </div>
+</body>
+
+</html>

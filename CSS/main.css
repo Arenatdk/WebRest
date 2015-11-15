@@ -1,0 +1,260 @@
+body {
+    background-image: url(/IMG/BG.png);
+}
+
+.content {
+    width: 95%;
+    background-color: white;
+    border-radius: 3px;
+    margin: auto;
+    box-shadow: 0 0 10px #bcbcbc;
+    overflow: hidden;
+}
+
+.nav {
+    margin: px 0;
+    padding-top: 10px;
+    border-bottom: 3px solid red;
+    background-color: #3f4244;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 100%;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav a:hover {
+    color: #db2121;
+}
+
+.nav .current a {
+    background: #db2121;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.headerwrap {
+    background: url(../IMG/Main-Image.jpg) no-repeat center top;
+    border-bottom: 3px solid red;
+    margin-top: 0px;
+    padding-top: 100px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 300px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.onas {
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', cursive;
+    text-indent: 1.5em;
+}
+
+.podval {
+    background-color: #3f4244;
+    border-top: 3px solid red;
+}
+
+.mapp {
+    text-align: center;
+}
+
+.layout {
+    overflow: hidden;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.layout DIV {
+    float: left;
+}
+
+.col1 {
+    width: 33%;
+}
+
+.col1 p a {
+    color: white;
+    text-decoration: none;
+}
+
+.col2 {
+    width: 34%;
+}
+
+.col2 a img:hover {
+    box-shadow: 0 0 10px #bcbcbc;
+}
+
+.col3 {
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col3 a img {
+    opacity: 0.6;
+}
+
+.col3 a img:hover {
+    opacity: 1;
+}
+
+.soc-widget {
+    list-style: none;
+    padding: 0;
+}
+
+.soc-widget li {
+    display: inline;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(30px);
+    }
+    80% {
+        -webkit-transform: translateX(-10px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+.menu__list {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.menu__list li {
+    padding: 9px 0 6px;
+    border-bottom: 1px solid #3f4244;
+    overflow: hidden;
+    font-family: 'Open Sans', cursive;
+}
+
+.cntr {}
+
+.menu__list li:first-child {
+    padding: 0 0 6px;
+    background: none;
+}
+
+.menu__list strong,
+.menu__list span {
+    float: right;
+    text-align: right;
+}
+
+.menu__list strong {
+    width: 100px;
+    font-weight: normal;
+}
+
+.menu__list span {
+    min-width: 70px;
+    /* margin: 3px 0 0 20px; */
+    font-size: 14px;
+}
+
+.menu__list span.bold {
+    float: none;
+    margin: 0;
+    min-width: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu__name {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    float: left;
+    font-family: 'Open Sans', cursive;
+    font-size: 1.5em;
+    color: #1a100d;
+    text-transform: uppercase;
+}
+
+.menu__name:hover {
+    color: #db2121;
+}
+
+. #di1 {`
+    cursor: default;
+    bottom: auto;
+    right: auto;
+}
+
+.scrol {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+}

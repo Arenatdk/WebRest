@@ -1,0 +1,14 @@
+#di1 {
+
+    cursor: default;
+    bottom: auto;
+    right: auto;
+}
+
+.scrol {
+    width:200px;
+    height: 500px;
+    background-color: black;
+    overflow: hidden;
+    
+}
